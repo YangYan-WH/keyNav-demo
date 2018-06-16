@@ -6,7 +6,7 @@ a{
     text-decoration: none;
 }
 kbd{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 4em;
     height: 4em;
     display: inline-block;
@@ -14,15 +14,21 @@ kbd{
     position: relative;
     background-color: #fbfbfb;
     font-family: bahnschrift;
-    font-size: 16px;
+    
     border-radius: 12px;
     margin-left: 10px;
     margin-top: 15px;
     box-shadow: 0px 4px 2px 0px rgba(209,209,209,1);
-    width: 50px;
-    height: 55px;
+    width: 55px;
+    height: 60px;
+}
+kbd>span{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
 }
 kbd>button{
+    font-size: 10px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -42,7 +48,7 @@ main{
     align-items:center;
 }
 main > .wrapper{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 15px 30px ;
     background: linear-gradient(to bottom, rgba(246,246,246,1) 0%, rgba(224,224,224,1) 100%);
     border-radius: 10px;
@@ -51,10 +57,10 @@ main > .wrapper>div:last-child{
     margin-bottom: 15px;
 }
 main >div> div:nth-child(2){
-    margin-left: 2em;
+    margin-left: -30px;
 }
 main >div> div:nth-child(3){
-    margin-left: 4em;
+    margin-left: -100px;
 }
 main >.wrapper {
     display: inline-block;

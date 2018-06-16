@@ -50,7 +50,9 @@
             index2 = 0
             while(index2 < row.length){
                 kbd = document.createElement('kbd');
-                kbd.textContent = row[index2];
+                span = document.createElement('span');
+                span.textContent = row[index2];
+                kbd.appendChild(span);
                 button = document.createElement('button');
                 button.textContent = '编辑';
                 button.id = row[index2];
